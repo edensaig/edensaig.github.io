@@ -1,0 +1,44 @@
+.community .position .name {
+	font-weight: bold;
+}
+
+.sectiontitle {
+	font-size: 1rem;
+	font-weight: bold;
+	padding-bottom: 0.3rem;
+}
+
+.section, #introbox {
+	border-left: 5px solid;
+	padding: 1rem;
+	padding-bottom: 0.1rem;
+	margin-bottom: 1rem;
+}
+
+#introbox {
+	border-color: #dee2e6;
+}
+
+.section:nth-of-type(2) {
+	border-color: #5a8afa;
+}
+
+.section:nth-of-type(3) {
+	border-color: #a98eda;
+}
+
+.section:nth-of-type(4) {
+	border-color: #0dcaf0;
+}
+
+.position .name::after {
+	content: ': ';
+}
+
+.position .years::before {
+	content: ' (';
+}
+
+.position .years::after {
+	content: ')';
+}
