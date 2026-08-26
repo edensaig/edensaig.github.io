@@ -29,10 +29,18 @@
 	content: ': ';
 }
 
+.community .position div {
+	display: inline;
+}
+
 .position .periods::before {
 	content: ' (';
 }
 
 .position .periods::after {
 	content: ')';
+}
+
+.distinction {
+	font-style: italic;
 }
